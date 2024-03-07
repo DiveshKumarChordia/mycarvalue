@@ -1,0 +1,47 @@
+###Post request 
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+    "email":"atssdssretteeat@gmaissl.com",
+    "password":"passwowrdrffd"
+}
+### Signin
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{
+    "email":"atreeeat@gmail.com",
+    "password":"passwowrdrd"
+}
+
+###whoami 
+
+GET http://localhost:3000/auth/whoami
+
+
+###signout
+POST http://localhost:3000/auth/signout
+
+### Get Request
+
+GET http://localhost:3000/auth/15
+
+### find all users
+
+GET http://localhost:3000/auth?email=atreat@gmail.com
+
+###Delete
+
+DELETE  http://localhost:3000/auth/1
+
+###Patch 
+
+PATCH http://localhost:3000/auth/15
+content-type:application/json
+
+{
+    "email":"absck@gmail.com"
+}
+
+
