@@ -1,0 +1,13 @@
+
+POST http://localhost:3000/reports
+content-type: application/json
+
+{
+    "price":5000,
+    "make":"maruti",
+    "model":"800",
+    "year":2010,
+    "lng":0,
+    "lat":0,
+    "mileage":100
+}
