@@ -3,8 +3,8 @@ POST http://localhost:3000/reports
 content-type: application/json
 
 {
-    "price":510,
-    "make":"nano",
+    "price":52,
+    "make":"nan",
     "model":"cheorn",
     "year":2000,
     "lng":0,
@@ -13,9 +13,9 @@ content-type: application/json
 }
 
 ### Patch
-PATCH http://localhost:3000/reports/9
+PATCH http://localhost:3000/reports/12
 content-type:application/json
 
 {
-    "approved":false
+    "approved":true
 }
