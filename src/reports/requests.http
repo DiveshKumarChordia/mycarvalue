@@ -3,10 +3,10 @@ POST http://localhost:3000/reports
 content-type: application/json
 
 {
-    "price":50000,
-    "make":"toyota",
-    "model":"crouell",
-    "year":1980,
+    "price":51100,
+    "make":"ferrari",
+    "model":"cheorn",
+    "year":2000,
     "lng":0,
     "lat":0,
     "mileage":1000
