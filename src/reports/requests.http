@@ -3,17 +3,17 @@ POST http://localhost:3000/reports
 content-type: application/json
 
 {
-    "price":51011,
-    "make":"ferrari",
+    "price":510,
+    "make":"nano",
     "model":"cheorn",
     "year":2000,
     "lng":0,
     "lat":0,
-    "mileage":100
+    "mileage":1010
 }
 
 ### Patch
-PATCH http://localhost:3000/reports/2
+PATCH http://localhost:3000/reports/9
 content-type:application/json
 
 {
